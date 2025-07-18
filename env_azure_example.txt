@@ -1,0 +1,12 @@
+# Azure OpenAI 环境变量配置示例
+# 将此文件重命名为 .env 并填入您的Azure OpenAI配置
+
+# Azure OpenAI API配置
+AZURE_OPENAI_ENDPOINT=https://azure-openai-wus3.openai.azure.com
+AZURE_OPENAI_API_KEY=2f168445fe4a4663823a2e227a4b952c
+AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4
+AZURE_OPENAI_API_VERSION=2024-08-01-preview
+
+# 可选：设置代理（如果需要）
+# HTTP_PROXY=http://your-proxy:port
+# HTTPS_PROXY=https://your-proxy:port

@@ -1,0 +1,14 @@
+# 仅保留兼容 langchain-core 0.1.x 的组件
+langchain>=0.1.0,<0.2.0
+langchain-openai>=0.1.0,<0.2.0
+langchain-community>=0.0.20,<0.1.0  # 旧版本，依赖 langchain-core <0.2.0
+langchain-core>=0.1.52,<0.2.0       # 严格限制 <0.2.0
+langsmith>=0.1.17,<0.2.0            # 适配 langchain 0.1.x
+
+# 移除 langserve 和 langgraph 相关包
+# 其他依赖（不变）
+python-dotenv>=1.0.0,<2.0.0
+openai>=1.10.0,<2.0.0
+streamlit>=1.29.0,<2.0.0
+dashscope>=1.14.1,<2.0.0
+chromadb>=0.4.0,<0.5.0
